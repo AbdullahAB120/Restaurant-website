@@ -1,0 +1,342 @@
+:root {
+	--primary-color: #a60000;
+	--secondary-color: #f0f0f0;
+	--third-color: black;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+  font-family: century-gothic;
+  src: url(../fonts/century-gothic.ttf);
+}
+
+body {
+	background: var(--primary-color);
+	color: var(--secondary-color);
+	font-family: Arial;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+
+
+/* Header Section Starts Here */
+
+header {
+	display: flex;
+	align-items: center;
+	padding: 10px 20px; 
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.logo {
+	flex: 50%;
+	display: flex;
+	align-items: center;
+}
+
+.logo img {
+	height: 60px;
+	width: 60px;
+}
+
+.logo p {
+	color: var(--secondary-color);
+	font-size: 30px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	border-left: 3px solid var(--secondary-color);
+	margin: 10px;
+	padding: 10px 15px;
+}
+
+.menu {
+	flex: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu a {
+	color: var(--secondary-color);
+	margin: 5px;
+	padding: 10px 15px;
+	font-size: 22px;
+	font-weight: bold;
+	border-radius: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+ 
+.menu a:hover {
+	background: var(--secondary-color);
+	color: var(--primary-color);
+	
+}
+ 
+/* Header Section Ends Here */
+
+
+
+/* intro Section Starts Here */
+
+.intro {
+	display: flex;
+	align-items: center;
+	padding: 80px 0;
+}
+
+.intro::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.intro-details {
+	flex: 50%;
+	margin-left: 50px;
+}
+
+.intro-details h1 {
+	font-family: century-gothic;
+	font-size: 55px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	margin-top: -15px;
+}
+
+.colorful-text {
+	color: var(--secondary-color);
+	font-weight: 900;
+}
+
+.intro-details p:first-child {
+	color: lightgray;
+	font-size: 17px;
+	letter-spacing: 1.8px;
+	text-transform: uppercase;
+}
+
+.intro-details p {
+	font-size: 18px;
+	padding: 20px 0;
+}
+
+.button {
+	background: none;
+	color: var(--secondary-color);
+	border: 3px solid var(--secondary-color);
+	border-radius: 5px;
+	padding: 10px 15px;
+	margin-right: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.btn1 {
+	background: none;
+	color: var(--secondary-color);
+}
+
+.btn1:hover {
+	background: var(--secondary-color);
+	color: var(--primary-color);
+}
+
+.btn2 {
+	background: var(--secondary-color);
+	color: var(--primary-color);
+}
+
+.btn2:hover {
+	background: none;
+	color: var(--secondary-color);
+}
+
+.intro-img {
+	flex: 50%;
+}
+
+.intro-img img {
+	width: 70%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+
+/* intro  Section Ends Here */
+
+
+
+/* About Section Starts Here */
+
+.about {
+	padding: 100px;
+}
+
+.section-heading {
+	color: var(--secondary-color);
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 1.5px;
+}
+
+.about p {
+	padding: 20px 0;
+	line-height: 1.5;
+	font-size: 22px;
+	text-align: justify;
+}
+
+/* About Section Ends Here */
+
+
+
+/* items Section Starts Here */
+
+.items {
+	padding: 50px 0;
+}
+
+.item-container {
+	width: 100%;
+	padding: 30px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item {
+	flex: 25%;
+	background: var(--third-color);
+	padding: 30px 20px;
+	margin: 25px;
+	text-align: center;
+	transition: 1s;
+	box-shadow: 2px 2px 10px #000000c4;
+}
+
+.item:hover {
+	transform: scale(1.1);
+	box-shadow: 5px 5px 15px #000000c4;
+}
+
+.item img {
+	width: 100%;
+	height: auto;
+	padding: 30px 20px;
+}
+
+.item h3 {
+	font-size: 30px;
+}
+
+.item h4 {
+	font-size: 25px;
+	padding: 10px;
+}
+
+/* items Section Ends Here */
+
+
+
+/* Contact Section Starts Here */
+
+.contact {
+	padding: 50px;
+}
+
+.contact-us {
+	display: flex;
+	padding: 30px 0;
+}
+
+.contact-details {
+	flex: 50%;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.contact-details div {
+	padding: 10px 0;
+}
+
+.contact-details p {
+	font-size: 25px;
+	line-height: 1.5;
+}
+
+.contact-form {
+	flex: 50%;
+	text-align: center;
+}
+
+input[type="text"],
+input[type="email"] {
+	border: 2px solid var(--secondary-color);
+	border-radius: 5px;
+	background: none;
+	color: var(--secondary-color);
+	padding: 10px 20px;
+	margin: 10px 0;
+	display: inline-block;
+	outline: none;
+	width: 350px;
+	font-size: 20px;
+}
+
+input::placeholder,
+textarea::placeholder {
+	color: lightgray;
+}
+
+textarea {
+	resize: none;
+	border: 2px solid var(--secondary-color);
+	border-radius: 5px;
+	outline: none;
+	background: none;
+	color: var(--secondary-color);
+	padding: 10px 20px;
+	margin: 10px 0;
+	height: 100px;
+	width: 350px;
+	font-size: 20px;
+}
+
+.contact-form button {
+	background: var(--secondary-color);
+	color: var(--primary-color);
+	border: none;
+	border-radius: 5px;
+	padding: 10px 15px;
+	margin: 15px 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* Contact Section Ends Here */
+
+
+
+/* Footer Section Starts Here */
+
+footer p {
+	padding: 20px 0;
+	font-size: 18px;
+	text-align: center;
+}
+
+/* Footer Section Ends Here */

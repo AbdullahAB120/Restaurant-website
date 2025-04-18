@@ -1,0 +1,138 @@
+:root {
+	--primary-color: #a60000;
+	--secondary-color: #f0f0f0;
+	--third-color: black;
+}
+
+body {
+	text-align: center;
+}
+
+/* Header Section Starts Here */
+
+header {
+	flex-direction: column;
+}
+
+.logo {
+	flex-direction: column;
+}
+
+.logo p { 
+	border-left: 0;
+	font-size: 22px;
+}
+
+.logo button {
+	display: block;
+	margin: 10px auto;
+}
+
+.logo button {
+	
+}
+
+.menu {
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.menu a {
+	border: 3px solid var(--secondary-color);
+	width: 100%;
+	font-size: 17px;
+	text-align: center;
+}
+
+/* Header Section Ends Here */
+
+
+
+/* intro Section Starts Here */
+
+.intro {
+	flex-direction: column;
+}
+
+.intro-details {
+	order: 2;
+	margin-left: 0;
+	padding: 30px 0;
+}
+
+.intro-details h1 {
+	font-size: 45px;
+	margin-top: -15px;
+}
+
+.colorful-text {
+	color: var(--secondary-color);
+}
+
+.intro-img {
+	order: 1;
+	width: 100%;
+}
+
+.intro-img img {
+	width: 100%;
+	height: auto;
+}
+/* intro Section Ends Here */
+
+
+
+/* About Section Starts Here */
+
+.about {
+	padding: 100px 30px;
+}
+
+.about p {
+	font-size: 18px;
+	text-align: center;
+}
+
+/* About Section Ends Here */
+
+
+
+/* Items Section Starts Here */
+
+
+
+.item {
+	flex: 100%;
+	width: 100%;
+}
+
+/* Items Section Ends Here */
+
+
+
+/* Contact Section Starts Here */
+
+.contact {
+	padding: 50px 0;
+}
+
+.contact-us {
+	flex-direction: column;
+}
+
+.contact-form {
+	order: 2;
+	padding: 0 30px;
+}
+
+input[type="text"],
+input[type="email"] {
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+}
+
+/* Contact Section Ends Here */
