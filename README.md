@@ -29,13 +29,13 @@
 A simple responsive restaurant landing page built using HTML5 and CSS3. This project was created during the early stages of my web development journey to practice the fundamentals of HTML, CSS, and responsive design.
 
 ### Features:
- • Built with HTML5 & CSS3
- • Responsive Layout
- • Simple & Clean UI
- • Restaurant Landing Page
- • Basic Navigation Menu
- • Well-Structured HTML
- • Mobile-Friendly Design
+- Built with HTML5 & CSS3
+- Responsive Layout
+- Simple & Clean UI
+- Restaurant Landing Page
+- Basic Navigation Menu
+- Well-Structured HTML
+- Mobile-Friendly Design
 
 This beginner-level project helped me build a strong foundation in front-end development. It focuses on writing clean HTML, organizing CSS effectively, and creating a responsive layout that works across different screen sizes. While the design and functionality are simple, it reflects my early learning process and understanding of core web development concepts.
 
