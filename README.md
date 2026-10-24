@@ -26,15 +26,18 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is a restaurant website template. When I have completed HTML & CSS, I made this website for practise purpose. I made this website with HTML & CSS. So It is a simple static website, also it is not fully responsive. But it is a creative work for me. Because this website's GUI was totally my own idea. However, you can contact with me for more information. Thank you for visiting my github repo...!
+A simple responsive restaurant landing page built using HTML5 and CSS3. This project was created during the early stages of my web development journey to practice the fundamentals of HTML, CSS, and responsive design.
 
+### Features:
+• Built with HTML5 & CSS3
+• Responsive Layout
+• Simple & Clean UI
+• Restaurant Landing Page
+• Basic Navigation Menu
+• Well-Structured HTML
+• Mobile-Friendly Design
 
-Section of this Website :
-* Introduction
-* About Restaurant
-* Food Item & Price
-* Contact
-* Copyright
+This beginner-level project helped me build a strong foundation in front-end development. It focuses on writing clean HTML, organizing CSS effectively, and creating a responsive layout that works across different screen sizes. While the design and functionality are simple, it reflects my early learning process and understanding of core web development concepts.
 
 
 
